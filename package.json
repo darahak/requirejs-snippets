@@ -1,0 +1,21 @@
+{
+  "name": "requirejs-snippets",
+  "main": "./lib/requirejs-snippets",
+  "version": "0.0.0",
+  "description": "RequireJS snippets for Atom",
+  "keywords": [
+    "javascript",
+    "snippets",
+    "require",
+    "requirejs",
+    "define",
+    "amd"
+  ],
+  "repository": "https://github.com/darahak/requirejs-snippets",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

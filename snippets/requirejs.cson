@@ -1,0 +1,24 @@
+'.source.js':
+    'RequireJS define named module':
+        'prefix': 'defjs-named'
+        'body': """
+            define(\'${1:name}\', [\'${2:deps}\'], function (${3:deps}) {
+                return {};
+            });
+        """
+
+    'RequireJS define module':
+        'prefix': 'defjs'
+        'body': """
+            define([\'${1:deps}\'], function (${2:deps}) {
+                return {};
+            });
+        """
+
+    'RequireJS import module':
+        'prefix': 'reqjs'
+        'body': """
+            require([\'${1:deps}\'], function (${2:deps}) {
+                $3
+            });
+        """
