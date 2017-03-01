@@ -14,7 +14,11 @@ apm install requirejs-snippets
 
 ```js
 define(['<deps>'], function (<deps>) {
-    return {};
+  var exports = {
+  
+  };
+
+  return exports;
 });
 ```
 
@@ -22,7 +26,11 @@ define(['<deps>'], function (<deps>) {
 
 ```js
 define('<name>', ['<deps>'], function (<deps>) {
-    return {};
+  var exports = {
+  
+  };
+
+  return exports;
 });
 ```
 
