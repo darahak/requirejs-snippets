@@ -1,7 +1,7 @@
 {
   "name": "requirejs-snippets",
   "main": "./lib/requirejs-snippets",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "RequireJS snippets for Atom",
   "keywords": [
     "javascript",
