@@ -1,32 +1,32 @@
 '.source.js':
   'RequireJS define named module':
     'prefix': 'defjs-named'
-      'body': """
-        define(\'${1:name}\', [\'${2:deps}\'], function (${3:deps}) {
-          var exports = {
-            $4
-          };
-          
-          return exports;
-        });
-      """
+    'body': """
+      define(\'${1:name}\', [\'${2:deps}\'], function (${3:deps}) {
+        var exports = {
+          $4
+        };
+        
+        return exports;
+      });
+    """
 
   'RequireJS define module':
     'prefix': 'defjs'
-      'body': """
-        define([\'${1:deps}\'], function (${2:deps}) {
-          var exports = {
-            $3
-          };
-          
-          return exports;
-        });
-      """
+    'body': """
+      define([\'${1:deps}\'], function (${2:deps}) {
+        var exports = {
+          $3
+        };
+        
+        return exports;
+      });
+    """
 
   'RequireJS import module':
     'prefix': 'reqjs'
-      'body': """
-        require([\'${1:deps}\'], function (${2:deps}) {
-          $3
-        });
-      """
+    'body': """
+      require([\'${1:deps}\'], function (${2:deps}) {
+        $3
+      });
+    """
